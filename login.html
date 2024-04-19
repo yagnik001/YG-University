@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YG University Login</title>
+    <link rel="stylesheet" href="site.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png"></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About Us.html">ABOUT</a></li>
+                    <li><a href="#courses">COURSE</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="apply-btn">
+                <a href="login.html" class="hero-btn">Apply Now</a>
+            </div>
+        </nav>
+    <div class="container">
+        <form id="form" action="/">
+            <h1>Login</h1>
+            <div class="input-control">
+                <label for="cname">Username</label>
+                <input id="cname" name="cname" type="text" required>
+                <div class="error" id="uname-error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password">Password</label>
+                <input id="password" name="password" type="password" required>
+                <div class="error" id="password-error"></div>
+            </div>
+            <button type="submit" onclick="login()">Login</button>
+            <a>Create an account <a href="Registration.html">Register</a>
+        </form>
+    </div>
+    </section>
+      <footer class="footer">
+        <div class="f-copyright">
+            <div class="row">
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#courses">Course</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Get Help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Cookies Policy</a></li>
+                        <li><a href="#">Accessibility</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Follow Us</h4>
+                    <ul>
+                        <li><a href="https://www.facebook.com/">Facebook</a></li>
+                        <li><a href="https://twitter.com/?lang=en">Twitter</a></li>
+                        <li><a href="https://www.youtube.com/">Youtube</a></li>
+                        <li><a href="https://www.linkedin.com/login">Linkedin</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Contact Us</h4>
+                    <p><b>Main Campus <br></b>Vishwanath Northview, University Road, Ahmedabad 380009, Gujarat, India.
+                        <br>
+                        Phone: +91 27565 565654
+                    </p>
+                    <p>Email: yguniversity@edu.in</p>
+                </div>
+            </div>
+        </div>
+        <small> © 2024 All Rights Reserved | Designed by YG University</small>
+    </footer>
+</body>
+<script src="Js.js"> </script>
+</html>
